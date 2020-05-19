@@ -117,18 +117,22 @@ export default {
     dialog: false,
     drawer: null,
     items: [
-      { icon: "mdi-home", text: "Home", view: "main" },
-      { icon: "mdi-atom", text: "Integration", view: "integration" },
+      { icon: "mdi-home", text: "Main", view: "main" },
+      { icon: "mdi-atom", text: "Development", view: "development" },
+      { icon: "mdi-apps", text: "Service", view: "service" },
       { icon: "mdi-monitor", text: "Monitoring", view: "monitoring" },
       { icon: "mdi-file-chart", text: "Statics", view: "statics" },
-      { icon: "mdi-key", text: "Security", view: "security" },
-      { icon: "mdi-contacts", text: "Idnetify", view: "identity" },
+      { icon: "mdi-folder-move", text: "Plugin", view: "plugin" },
+
+      { icon: "mdi-contacts", text: "Idnetity", view: "identity" },
+
       {
         icon: "mdi-brightness-5",
         text: "setting",
         view: "setting"
       },
       { icon: "mdi-file", text: "Log", view: "log" },
+      { icon: "mdi-shield", text: "Security", view: "security" },
       { icon: "mdi-help-circle", text: "About", view: "about" }
     ]
   })

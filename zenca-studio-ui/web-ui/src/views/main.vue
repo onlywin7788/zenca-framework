@@ -4,20 +4,19 @@
       <v-card max-width="500" class="ma-3">
         <v-card-text>
           <p class="display-2 text--primary">Multi-Cloud Integration</p>
-
           <div class="text--primary">
             See the Information
             <br />Router the Link
           </div>
         </v-card-text>
         <v-card-actions>
-          <v-btn text color="blue accent-4" :to="{name : 'integration'}">VIEW MORE</v-btn>
+          <v-btn text color="blue accent-4" :to="{name : 'development'}">VIEW MORE</v-btn>
         </v-card-actions>
       </v-card>
 
       <v-card max-width="500" class="ma-3">
         <v-card-text>
-          <p class="display-2 text--primary">Application Monitoring</p>
+          <p class="display-2 text--primary">Trsansaction Service Management</p>
 
           <div class="text--primary">
             See the Information
@@ -31,7 +30,7 @@
 
       <v-card max-width="500" class="ma-3">
         <v-card-text>
-          <p class="display-2 text--primary">Cloude Data Statics & Analytics</p>
+          <p class="display-2 text--primary">Cloud Data Statics & Analytics</p>
 
           <div class="text--primary">
             See the Information
@@ -75,7 +74,7 @@
 
       <v-card max-width="500" class="ma-3">
         <v-card-text>
-          <p class="display-2 text--primary">Collecting / Tracking Event Log</p>
+          <p class="display-2 text--primary">System Maintenance Event Log</p>
 
           <div class="text--primary">
             See the Information

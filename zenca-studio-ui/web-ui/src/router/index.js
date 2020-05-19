@@ -7,17 +7,22 @@ const routes = [
   {
     path: "/",
     name: "home",
-    component: () => import("@/views/home.vue"),
+    component: () => import("@/views/main.vue"),
   },
   {
     path: "/home",
     name: "main",
-    component: () => import("@/views/home.vue"),
+    component: () => import("@/views/main.vue"),
   },
   {
-    path: "/integration",
-    name: "integration",
-    component: () => import("@/views/integration.vue"),
+    path: "/development",
+    name: "development",
+    component: () => import("@/views/development.vue"),
+  },
+  {
+    path: "/service",
+    name: "service",
+    component: () => import("@/views/service.vue"),
   },
   {
     path: "/monitoring",
@@ -28,6 +33,11 @@ const routes = [
     path: "/statics",
     name: "statics",
     component: () => import("@/views/statics.vue"),
+  },
+  {
+    path: "/plugin",
+    name: "plugin",
+    component: () => import("@/views/plugin.vue"),
   },
   {
     path: "/security",
