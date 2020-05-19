@@ -61,7 +61,7 @@
         <span class="hidden-sm-and-down">Help</span>
       </v-toolbar-title>
     </v-app-bar>
-    <v-content class="ma-5">
+    <v-content class="ma-6">
       <router-view />
     </v-content>
     <v-btn bottom color="pink" dark fab fixed right @click="dialog = !dialog">
