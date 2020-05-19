@@ -117,7 +117,7 @@ export default {
     dialog: false,
     drawer: null,
     items: [
-      { icon: "mdi-atom", text: "Home", view: "main" },
+      { icon: "mdi-home", text: "Home", view: "main" },
       { icon: "mdi-atom", text: "Integration", view: "integration" },
       { icon: "mdi-monitor", text: "Monitoring", view: "monitoring" },
       { icon: "mdi-file-chart", text: "Statics", view: "statics" },
