@@ -1,5 +1,10 @@
 <template>
-  <div>
-    <h1>service</h1>
-  </div>
+  <v-container>
+    <v-flex>
+      <v-icon x-large>mdi-menu-right</v-icon>Service
+    </v-flex>
+    <v-flex class="mt-2 mb-5">
+      <v-divider></v-divider>
+    </v-flex>
+  </v-container>
 </template>

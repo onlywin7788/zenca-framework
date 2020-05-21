@@ -1,8 +1,11 @@
 <template>
-  <div>
-    <p class="ma-3">
-      <b># security</b>
-    </p>
+  <v-container>
+    <v-flex>
+      <v-icon x-large>mdi-menu-right</v-icon>Security
+    </v-flex>
+    <v-flex class="mt-2 mb-5">
+      <v-divider></v-divider>
+    </v-flex>
     <v-row justify="center">
       <v-col cols="12" sm="8">
         <v-card>
@@ -25,7 +28,7 @@
           </v-card-title>
 
           <v-list>
-            <v-list-item @click>
+            <v-list-item>
               <v-list-item-action>
                 <v-icon>mdi-phone</v-icon>
               </v-list-item-action>
@@ -40,7 +43,7 @@
 
             <v-divider inset></v-divider>
 
-            <v-list-item @click>
+            <v-list-item>
               <v-list-item-action>
                 <v-icon>mdi-phone</v-icon>
               </v-list-item-action>
@@ -56,7 +59,7 @@
 
             <v-divider inset></v-divider>
 
-            <v-list-item @click>
+            <v-list-item>
               <v-list-item-action>
                 <v-icon>mdi-email</v-icon>
               </v-list-item-action>
@@ -68,7 +71,7 @@
 
             <v-divider inset></v-divider>
 
-            <v-list-item @click>
+            <v-list-item>
               <v-list-item-action>
                 <v-icon>mdi-map-marker</v-icon>
               </v-list-item-action>
@@ -83,5 +86,5 @@
         </v-card>
       </v-col>
     </v-row>
-  </div>
+  </v-container>
 </template>

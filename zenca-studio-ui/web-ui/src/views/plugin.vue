@@ -1,5 +1,10 @@
 <template>
-  <div>
-    <h1>plugin</h1>
-  </div>
+  <v-container>
+    <v-flex>
+      <v-icon x-large>mdi-menu-right</v-icon>Plugin
+    </v-flex>
+    <v-flex class="mt-2 mb-5">
+      <v-divider></v-divider>
+    </v-flex>
+  </v-container>
 </template>

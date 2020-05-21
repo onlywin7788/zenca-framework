@@ -1,10 +1,13 @@
 <template>
-  <div>
-    <p class="ma-3">
-      <b># setting</b>
-    </p>
+  <v-container>
+    <v-flex>
+      <v-icon x-large>mdi-menu-right</v-icon>Setting
+    </v-flex>
+    <v-flex class="mt-2 mb-5">
+      <v-divider></v-divider>
+    </v-flex>
 
-    <v-row align="center">
+    <v-row align="center" class="ma-2">
       <v-row justify="space-around">
         <v-switch v-model="accordion" class="ma-2" label="Option1"></v-switch>
         <v-switch v-model="popout" class="ma-2" label="Option2"></v-switch>
@@ -36,5 +39,5 @@
         </v-expansion-panel>
       </v-expansion-panels>
     </v-row>
-  </div>
+  </v-container>
 </template>

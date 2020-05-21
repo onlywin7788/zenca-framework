@@ -1,24 +1,61 @@
 <template>
-  <div>
-    <p class="ma-3">
-      <b># Event Log</b>
-    </p>
-    <v-data-table :headers="headers" :items="desserts" :items-per-page="10" class="elevation-1"></v-data-table>
-  </div>
+  <v-container>
+    <v-flex>
+      <v-icon x-large>mdi-menu-right</v-icon>Event Log
+    </v-flex>
+    <v-flex class="mt-2 mb-5">
+      <v-divider></v-divider>
+    </v-flex>
+    <v-card outlined>
+      <v-data-table
+        :headers="headers"
+        :items="desserts"
+        :items-per-page="10"
+        @click:row="selectRow"
+        class="elevation-1"
+      ></v-data-table>
+    </v-card>
+    <v-navigation-drawer v-model="drawer" absolute temporary="false" right>
+      <v-flex class="ma-3">
+        <v-list-item-title>Description</v-list-item-title>
+
+        <v-divider></v-divider>
+        <v-list-item-title>{{ descTitle }}</v-list-item-title>
+        <v-list-item-title>{{ descTitle }}</v-list-item-title>
+        <v-list-item-title>{{ descTitle }}</v-list-item-title>
+        <v-list-item-title>{{ descTitle }}</v-list-item-title>
+        <v-list-item-title>{{ descTitle }}</v-list-item-title>
+        <v-list-item-title>{{ descTitle }}</v-list-item-title>
+        <v-list-item-title>{{ descTitle }}</v-list-item-title>
+      </v-flex>
+
+      <v-list dense>
+        <v-list-item v-for="drawerItem in items" :key="drawerItem.title" link>
+          <v-list-item-icon>
+            <v-icon>{{ drawerItem.icon }}</v-icon>
+          </v-list-item-icon>
+
+          <v-list-item-content></v-list-item-content>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
+  </v-container>
 </template>
 
 
 <script>
 export default {
+  methods: {
+    selectRow: function(item, row) {
+      this.drawer = true;
+    }
+  },
   data() {
     return {
+      drawer: null,
+      descTitle: "TEST VIEW",
       headers: [
-        {
-          text: "Time",
-          align: "start",
-          sortable: false,
-          value: "time"
-        },
+        { text: "Time", value: "time" },
         { text: "Event Level", value: "level" },
         { text: "System Class", value: "class" },
         { text: "Summary", value: "summary" }
