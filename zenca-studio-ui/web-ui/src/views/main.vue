@@ -101,5 +101,11 @@
         </v-col>
       </v-row>
     </v-flex>
+
+    <v-footer absolute class="font-weight-medium">
+      <v-col class="text-center" cols="12">
+        <p>Released under the Cloud-based Subscription.</p>Copyright © 2020 Zenca-Framework, Lucas Kim
+      </v-col>
+    </v-footer>
   </v-container>
 </template>
