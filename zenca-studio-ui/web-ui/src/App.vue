@@ -52,7 +52,7 @@
 
       <v-spacer></v-spacer>
       <v-icon>mdi-account-box</v-icon>
-      <span class="ma-2">Kim. Lucas</span>
+      <span class="ma-2">Lucas. Kim</span>
       <span class="ma-2">|</span>
       <span class="ma-2">Help</span>
     </v-app-bar>
