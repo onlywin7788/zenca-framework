@@ -51,15 +51,10 @@
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
-      <v-toolbar-title class="ml-0 pl-4">
-        <span class="hidden-sm-and-down">welcome Kim. Lucas</span>
-      </v-toolbar-title>
-      <v-toolbar-title class="ml-0 pl-4">
-        <span class="hidden-sm-and-down">|</span>
-      </v-toolbar-title>
-      <v-toolbar-title class="ml-0 pl-4">
-        <span class="hidden-sm-and-down">Help</span>
-      </v-toolbar-title>
+      <v-icon>mdi-account-box</v-icon>
+      <span class="ma-2">Kim. Lucas</span>
+      <span class="ma-2">|</span>
+      <span class="ma-2">Help</span>
     </v-app-bar>
     <v-content>
       <router-view />

@@ -8,25 +8,27 @@
       <v-divider></v-divider>
     </v-flex>
 
-    <v-card>
-      <v-card-title>
-        <v-btn color="primary" tile dark @click.stop="dialog = true">NEW PROJECT</v-btn>
-        <v-spacer></v-spacer>
-        <v-text-field
-          v-model="search"
-          append-icon="mdi-magnify"
-          label="Search"
-          single-line
-          hide-details
-        ></v-text-field>
-      </v-card-title>
-      <v-data-table
-        :headers="headers"
-        :items="project_data"
-        :search="search"
-        @click:row="selectRow"
-      ></v-data-table>
-    </v-card>
+    <v-flex class="ma-2">
+      <v-card outlined>
+        <v-card-title>
+          <v-btn color="primary" tile dark @click.stop="dialog = true">NEW PROJECT</v-btn>
+          <v-spacer></v-spacer>
+          <v-text-field
+            v-model="search"
+            append-icon="mdi-magnify"
+            label="Search"
+            single-line
+            hide-details
+          ></v-text-field>
+        </v-card-title>
+        <v-data-table
+          :headers="headers"
+          :items="project_data"
+          :search="search"
+          @click:row="selectRow"
+        ></v-data-table>
+      </v-card>
+    </v-flex>
 
     <!-- new project dialog -->
     <v-dialog v-model="dialog" persistent max-width="600px">
