@@ -13,8 +13,8 @@
             <v-card-text>
               <p class="font-weight-bold title">Multi-Cloud Integration Project</p>
               <div class="text--primary">
-                See the Information
-                <br />Router the Link
+                Cloud-based Data Integration
+                <br />Web-Based Service Development
               </div>
             </v-card-text>
             <v-card-actions>
@@ -28,8 +28,8 @@
               <p class="font-weight-bold title">Service Management</p>
 
               <div class="text--primary">
-                See the Information
-                <br />Router the Link
+                Service status management per host-server
+                <br />Managing Service for developer & infra Team
               </div>
             </v-card-text>
             <v-card-actions>
@@ -43,8 +43,8 @@
               <p class="font-weight-bold title">Platform Monitoring</p>
 
               <div class="text--primary">
-                See the Information
-                <br />Router the Link
+                Support monitoring with web-based UI
+                <br />Manage the safe system with graph chart
               </div>
             </v-card-text>
             <v-card-actions>
@@ -60,8 +60,8 @@
             <v-card-text>
               <p class="font-weight-bold title">Transaction Data Statics & Analytics</p>
               <div class="text--primary">
-                See the Information
-                <br />Router the Link
+                Web-based transaction data statics service
+                <br />Support the various visualization
               </div>
             </v-card-text>
             <v-card-actions>
@@ -75,8 +75,8 @@
               <p class="font-weight-bold title">User Management & Permission</p>
 
               <div class="text--primary">
-                See the Information
-                <br />Router the Link
+                Manage user account and permission
+                <br />Block the unsafe user action
               </div>
             </v-card-text>
             <v-card-actions>
@@ -90,8 +90,8 @@
               <p class="font-weight-bold title">Service Maintenance Event Log</p>
 
               <div class="text--primary">
-                See the Information
-                <br />Router the Link
+                Check the platform event log on web UI
+                <br />Support various event class and application type
               </div>
             </v-card-text>
             <v-card-actions>
