@@ -72,7 +72,7 @@ export default {
     drawer: null,
     items: [
       { icon: "mdi-home", text: "Main", view: "main" },
-      { icon: "mdi-developer-board", text: "project", view: "project" },
+      { icon: "mdi-developer-board", text: "Project", view: "project" },
       { icon: "mdi-apps", text: "Service", view: "service" },
       { icon: "mdi-monitor", text: "Monitoring", view: "monitoring" },
       { icon: "mdi-file-chart", text: "Statics", view: "statics" },
