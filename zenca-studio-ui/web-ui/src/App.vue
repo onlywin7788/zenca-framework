@@ -78,7 +78,7 @@ export default {
       { icon: "mdi-file-chart", text: "Statics", view: "statics" },
       { icon: "mdi-contacts", text: "Idnetity", view: "identity" },
       { icon: "mdi-file", text: "Event Log", view: "log" },
-      { icon: "mdi-folder-move", text: "Plugin", view: "plugin" },
+      { icon: "mdi-folder-upload", text: "Plugin", view: "plugin" },
       { icon: "mdi-shield", text: "Security", view: "security" },
       {
         icon: "mdi-brightness-5",
