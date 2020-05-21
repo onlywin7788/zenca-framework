@@ -11,7 +11,7 @@
         <v-col>
           <v-card class="pa-3" outlined tile>
             <v-card-text>
-              <p class="display-1 text--primary">Multi-Cloud Integration Project</p>
+              <p class="font-weight-bold title">Multi-Cloud Integration Project</p>
               <div class="text--primary">
                 See the Information
                 <br />Router the Link
@@ -25,7 +25,7 @@
         <v-col>
           <v-card class="pa-3" outlined tile>
             <v-card-text>
-              <p class="display-1 text--primary">Trsansaction Service Management</p>
+              <p class="font-weight-bold title">Service Management</p>
 
               <div class="text--primary">
                 See the Information
@@ -40,7 +40,7 @@
         <v-col>
           <v-card class="pa-3" outlined tile>
             <v-card-text>
-              <p class="display-1 text--primary">Transaction Service Monitoring</p>
+              <p class="font-weight-bold title">Platform Monitoring</p>
 
               <div class="text--primary">
                 See the Information
@@ -58,7 +58,7 @@
         <v-col>
           <v-card class="pa-3" outlined tile>
             <v-card-text>
-              <p class="display-1 text--primary">Transaction Service Data Statics & Analytics</p>
+              <p class="font-weight-bold title">Transaction Data Statics & Analytics</p>
               <div class="text--primary">
                 See the Information
                 <br />Router the Link
@@ -72,7 +72,7 @@
         <v-col>
           <v-card class="pa-3" outlined tile>
             <v-card-text>
-              <p class="display-1 text--primary">User Management & Permission</p>
+              <p class="font-weight-bold title">User Management & Permission</p>
 
               <div class="text--primary">
                 See the Information
@@ -87,7 +87,7 @@
         <v-col>
           <v-card class="pa-3" outlined tile>
             <v-card-text>
-              <p class="display-1 text--primary">Multi-Cloud Maintenance Event Log</p>
+              <p class="font-weight-bold title">Service Maintenance Event Log</p>
 
               <div class="text--primary">
                 See the Information
